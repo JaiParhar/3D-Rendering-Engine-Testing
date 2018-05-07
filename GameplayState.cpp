@@ -63,9 +63,9 @@ void GameplayState::render()
 	renderer->setTexture(texture3);
 	renderer->renderMesh(camera, vertexbuffer3, uvbuffer3, normalbuffer3, elementbuffer3, objSize3, glm::vec3(0, 0, -15), glm::vec3(0, 0, 0));
 
-	renderer->setShader(&weaponShader);
-	renderer->setTexture(swordTexture);
-	renderer->renderMesh(camera, swordVbuffer, swordUVbuffer, swordNbuffer, swordEbuffer, swordObjSize, glm::vec3(0.3, -0.5, -1), glm::vec3(-90*abs(sinf(glm::radians(angle))), 0, 0), glm::vec3(0.125f));
+	//renderer->setShader(&weaponShader);
+	//renderer->setTexture(swordTexture);
+	//renderer->renderMesh(camera, swordVbuffer, swordUVbuffer, swordNbuffer, swordEbuffer, swordObjSize, glm::vec3(0.3, -0.5, -1), glm::vec3(-90*abs(sinf(glm::radians(angle))), 0, 0), glm::vec3(0.125f));
 
 	angle += 0.25f;
 

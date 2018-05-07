@@ -17,7 +17,7 @@ public:
 	float yRot;
 	float zRot;
 
-	float FoV = 45.0f;
+	float FoV = 75.0f;
 	float screenRatio;
 	float renderDistMin = 0.1f;
 	float renderDistMax = 100.0f;
